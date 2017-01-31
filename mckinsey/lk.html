@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>McKinsey&Company</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/template.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="siteHeader">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+                    <div class="logo">
+                        <a href="/"><img src="images/logo.svg" alt="McKinsey&Company"></a>
+                    </div>
+                </div>
+                <div class="col-xs-8 visible-xs">
+                    <div class="menuTrigger" id="pull">
+                        <a href="javascript:void(0)"></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Правила</a></li>
+                            <li><a href="#">Кейсы</a></li>
+                            <li class="login"><a href="#" data-modal="#login">Регистрация / Вход</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container-fluid">
+            <h1>личный кабинет</h1>
+            <div class="lk">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-1">
+                        <div class="lkLeft">
+                            <h4>Команда</h4>
+                            <form class="form">
+                                <ul>
+                                    <li>
+                                        <label for="teamName">Название</label>
+                                        <input type="text" id="teamName" placeholder="CaseCrackers">
+                                    </li>
+                                    <li>
+                                        <label for="teamCount">Участники</label>
+                                        <div class="radioSet" id="teamCount">
+                                            <label><input type="radio" name="teamCount"><span>1</span></label>
+                                            <label><input type="radio" name="teamCount"><span>2</span></label>
+                                            <label><input type="radio" name="teamCount"><span>3</span></label>
+                                            <label><input type="radio" name="teamCount"><span>4</span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label for="teamFio">Имя, Фамилия</label>
+                                        <input type="text" id="teamFio" placeholder="Филипп Филиппов">
+                                    </li>
+                                    <li>
+                                        <label for="teamMail">E-mail</label>
+                                        <input type="text" id="teamMail" placeholder="inbox@gmail.com">
+                                    </li>
+                                    <li>
+                                        <label for="teamPhone">Телефон</label>
+                                        <input type="text" id="teamPhone" placeholder="+7 (916) 555-65-65">
+                                    </li>
+                                    <li>
+                                        <label for="teamCollege">ВУЗ</label>
+                                        <select id="teamCollege">
+                                            <option>Адыгейский государственный университет</option>
+                                            <option>Алтайский государственный аграрный университет</option>
+                                            <option>Алтайский государственный университет</option>
+                                            <option>Амурский государственный университет</option>
+                                            <option>Астраханский государственный технический университет</option>
+                                            <option>Астраханский государственный университет</option>
+                                            <option>Байкальский государственный университет</option>
+                                            <option>Балтийский государственный технический университет "Военмех" имени Д.Ф.Устинова</option>
+                                            <option>Балтийский федеральный университет имени Иммануила Канта</option>
+                                            <option>Башкирский государственный аграрный университет </option>
+                                            <option>Башкирский государственный университет</option>
+                                            <option>Белгородский государственный технологический университет имени В. Г. Шухова</option>
+                                            <option>Белгородский национальный исследовательский университет</option>
+                                            <option>Братский государственный университет</option>
+                                            <option>Брянский государственный университет имени академика И.Г. Петровского</option>
+                                            <option>Бурятский государственный университет</option>
+                                            <option>Владивостокский государственный университет экономики и сервиса</option>
+                                            <option>Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых</option>
+                                            <option>Волгоградский государственный аграрный университет</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <label for="teamFaculty">Факультет</label>
+                                        <input type="text" id="teamFaculty" placeholder="Мировая экономика">
+                                    </li>
+                                    <li>
+                                        <label for="teamCourse">Курс</label>
+                                        <select id="teamCourse">
+                                            <option>1 курс</option>
+                                            <option>2 курс</option>
+                                            <option>3 курс</option>
+                                            <option>4 курс</option>
+                                            <option>5 курс</option>
+                                            <option>1 курс магистратуры</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <div class="btnsSet">
+                                            <a href="#" class="btn small">удалить команду</a>
+                                            <a href="#" class="btn small">сохранить</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+                        <div class="lkRight tabs">
+                            <ul class="teamTabsTriggers tabsTriggers">
+                                <li class="current"><a href="#">Файлы</a></li>
+                                <li><a href="#">Поиск команды</a></li>
+                            </ul>
+                            <div class="teamTabs tabsContent">
+                                <div class="tab teamTab current">
+                                    <h4>Кейс 1 тура</h4>
+                                    <p class="teamTheme">Тема MBD 2016 — разработка стратегии запуска космотакси компании GETT. <br> В 1 туре вашей команде предстоит создать LOP для клиента.</p>
+                                    <ul class="download">
+                                        <li>
+                                            <a href="some.pdf">Задание</a>
+                                        </li>
+                                        <li>
+                                            <a href="some.docx">Приложение 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="some.xlsx">Приложение 2</a>
+                                        </li>
+                                    </ul>
+                                    <a class="deadline" href="#">Загрузить решение до 23:59 18 марта 2017</a>
+                                </div>
+                                <div class="tab teamTab">
+                                    <p class="tryFind">Если Вы пока один, или у вас неполная команда, найдите недостающих участников:</p>
+                                    <div class="findRadio">
+                                        <div class="radioSetLabel">Не хватает...</div>
+                                        <div class="radioSet">
+                                            <label><input type="radio" name="teamCount"><span>1</span></label>
+                                            <label><input type="radio" name="teamCount"><span>2</span></label>
+                                            <label><input type="radio" name="teamCount"><span>3</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="teamsList">
+                                        <div class="teamBlock">
+                                            <div class="teamBlockTitle">
+                                                <a href="#" class="tbs-show js-tbs"></a>
+                                                <div class="teamBlockShow js-tbs">Eidos</div>
+                                                <div class="teamBlockCall"><a href="#">Связаться с этой командой</a></div>
+                                            </div>
+                                            <div class="teamBlockContent">
+                                                <div class="teamMember">
+                                                    <p>Иванов Иван</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс специалитета</p>
+                                                </div>
+                                                <div class="teamMember">
+                                                    <p>Петров Василий</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс бакалавриата</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="teamBlock">
+                                            <div class="teamBlockTitle">
+                                                <a href="#" class="tbs-show js-tbs"></a>
+                                                <div class="teamBlockShow js-tbs">One way</div>
+                                                <div class="teamBlockCall"><a href="#">Связаться с этой командой</a></div>
+                                            </div>
+                                            <div class="teamBlockContent">
+                                                <div class="teamMember">
+                                                    <p>Иванов Иван</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс специалитета</p>
+                                                </div>
+                                                <div class="teamMember">
+                                                    <p>Петров Василий</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс бакалавриата</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="teamBlock">
+                                            <div class="teamBlockTitle">
+                                                <a href="#" class="tbs-show js-tbs"></a>
+                                                <div class="teamBlockShow js-tbs">Best team</div>
+                                                <div class="teamBlockCall"><a href="#">Связаться с этой командой</a></div>
+                                            </div>
+                                            <div class="teamBlockContent">
+                                                <div class="teamMember">
+                                                    <p>Иванов Иван</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс специалитета</p>
+                                                </div>
+                                                <div class="teamMember">
+                                                    <p>Петров Василий</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс бакалавриата</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="teamBlock">
+                                            <div class="teamBlockTitle">
+                                                <a href="#" class="tbs-show js-tbs"></a>
+                                                <div class="teamBlockShow js-tbs">First</div>
+                                                <div class="teamBlockCall"><a href="#">Связаться с этой командой</a></div>
+                                            </div>
+                                            <div class="teamBlockContent">
+                                                <div class="teamMember">
+                                                    <p>Иванов Иван</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс специалитета</p>
+                                                </div>
+                                                <div class="teamMember">
+                                                    <p>Петров Василий</p>
+                                                    <p>Национальный исследовательский университет</p>
+                                                    <p>4 курс бакалавриата</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="siteFooter">
+        <p>Ежегодный кейс-чемпионат Business Diving 2017 <br>McKinsey & Company &copy; 2017</p>
+    </footer>
+
+    <div class="hide">
+        <div class="modal" id="login">
+            <div class="modalClose arcticmodal-close"></div>
+            <div class="modalTitle">
+                <div class="modalLoginTabTriggers">
+                    <a href="#" class="active">Регистрация /</a>
+                    <a href="#">Вход</a>
+                </div>
+                <div class="modalMessage">Нет команды? Зарегистрируйся и найди ее на сайте!</div>
+            </div>
+            <div class="modalContent">
+                <div class="modalTab tabRegister active">
+                    <form action="">
+                        <ul class="modalForm">
+                            <li>
+                                <input type="text" placeholder="Название команды">
+                            </li>
+                            <li>
+                                <input type="text" placeholder="E-mail для связи с вами">
+                            </li>
+                            <li>
+                                <input type="text" placeholder="Пароль">
+                            </li>
+                            <li>
+                                <div class="text-center">
+                                    <a href="#" class="btn submit">Зарегистрироваться</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="modalTab tabLogin">
+                    <form action="">
+                        <ul class="modalForm">
+                            <li>
+                                <input type="text" placeholder="E-mail">
+                            </li>
+                            <li>
+                                <input type="password" placeholder="Пароль">
+                            </li>
+                            <li>
+                                <div class="text-center">
+                                    <a href="#" class="btn submit">Войти</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/jquery.plugin.min.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/jquery.countdown-ru.js"></script>
+<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script>
+    (function($) {
+        $(function() {
+            $('select').styler({
+                selectSearch: true
+            });
+        });
+    })(jQuery);
+</script>
+<script>
+    $(function () {
+        var austDay = new Date();
+        austDay = new Date('2017, 3, 5');
+        $('#timer').countdown({until: austDay, format: 'dHM'});
+    });
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
