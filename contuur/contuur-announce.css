@@ -1,0 +1,184 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  min-width: 1100px;
+}
+.one_slide {
+  height: 1300px;
+  min-height: 1300px;
+}
+#lines {
+  min-height: 1600px;
+  height: 1600px;
+  background-color: #000;
+}
+#lines canvas {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+#orange_logo {
+  background-color: #ff7200;
+  color: #fff;
+}
+#orange_logo .container {
+  text-align: center;
+  padding-top: 450px;
+  padding-bottom: 190px;
+}
+#phone .container {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+#pocket {
+  height: 700px;
+  width: 600px;
+  display: inline-block;
+  top: 550px;
+  position: relative;
+  z-index: 4;
+  color: #fff;
+  font-size: 18px;
+  background: url('pocket.png') no-repeat bottom / 100%;
+}
+#pocket p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 152px;
+  width: 478px;
+  text-align: center;
+  display: none;
+}
+.logo_row {
+  position: absolute;
+  height: 5px;
+  width: 190px;
+  background-color: #fff;
+  display: inline-block;
+  opcity: 0;
+}
+#logo_row1 {
+  top: 66px;
+  left: -390px;
+}
+#logo_row2 {
+  top: 89px;
+  left: 1090px;
+}
+#contuur_logo_animation {
+  position: relative;
+  height: 290px;
+  display: inline-block;
+  width: 948px;
+  overflow: hidden;
+}
+#iphone {
+  background-color: transparent;
+  overflow: hidden;
+  background-image: url('iphone.png');
+  background-repeat: no-repeat;
+  background-size: 402px 797px;
+  width: 402px;
+  height: 797px;
+  top: 364px;
+  margin-left: 60px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+}
+#iphone_text {
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 4em;
+  color: #fff;
+  vertical-align: top;
+}
+#contuur_logo {
+  z-index: 2;
+  overflow: hidden;
+  background-image: url('contuur-logo-no-lines.png');
+  background-repeat: no-repeat;
+  background-size: 700px 143px;
+  width: 700px;
+  height: 143px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin-top: 69px;
+}
+#small_logo {
+  top: 260px;
+  left: 525px;
+  overflow: hidden;
+  background-image: url('small_logo.png');
+  background-repeat: no-repeat;
+  background-size: 67px 70px;
+  width: 67px;
+  height: 70px;
+  display: none;
+  position: relative;
+}
+#contuur_blackbox {
+  z-index: 1;
+  background-color: #000;
+  position: relative;
+  height: 200%;
+  display: none;
+  top: -199px;
+}
+#text_after_orange_logo {
+  display: inline-block;
+  width: 948px;
+  text-align: left;
+  margin-top: 70px;
+}
+#text_after_orange_logo p {
+  margin: 0;
+  padding: 45px 0 0 558px;
+}
+#phone {
+  background-color: #000;
+  position: relative;
+  z-index: 4;
+  text-align: center;
+}
+#animations {
+  background-color: #fff;
+  text-align: center;
+  z-index: 200;
+  position: relative;
+  overflow: hidden;
+}
+#animations video {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.roles {
+  background-color: #000;
+  height: 20ex;
+  color: #fff;
+  padding-top: 6ex;
+  padding-left: 15em;
+  vertical-align: top;
+  z-index: 200;
+  position: relative;
+}
+.one_column {
+  display: inline-block;
+  width: 10em;
+  margin-right: 4em;
+  vertical-align: top;
+  height: 10ex;
+}
