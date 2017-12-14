@@ -43,21 +43,21 @@ body {
   height: 700px;
   width: 600px;
   display: inline-block;
-  top: 550px;
+  top: 490px;
   position: relative;
   z-index: 4;
   color: #fff;
   font-size: 18px;
   background: url('pocket.png') no-repeat bottom / 100%;
 }
-#pocket p {
-  margin: 0;
+#phone .container p {
+  margin: 70px 70px 0 0;
   padding: 0;
-  position: absolute;
-  top: 152px;
-  width: 478px;
+  /* position: absolute; */
+  /* top: 152px; */
+  /* width: 478px; */
   text-align: center;
-  display: none;
+  color: #fff;
 }
 .logo_row {
   position: absolute;

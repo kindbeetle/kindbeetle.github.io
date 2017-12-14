@@ -15,7 +15,7 @@ $(function() {
   var w = -10;
   var h = 0;
   var p = 364;
-  var m = 0;
+  var m = 100;
   var s = 0;
   function a(z) {
     var y = $('#small_logo');
@@ -26,7 +26,7 @@ $(function() {
           .addClass('shown')
           .fadeIn('slow');
       }
-      var x = parseInt(A.css('top')) - (s - z) / 1.5;
+      var x = parseInt(A.css('top')) - (s - z) / 5;
       s = z;
       if (x >= m && x <= p) {
         A.css('top', String(x) + 'px');
